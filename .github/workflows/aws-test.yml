@@ -22,8 +22,8 @@ jobs:
           echo "Repository: $GITHUB_REPOSITORY"
           echo "Ref: $GITHUB_REF"
           echo "Event: $GITHUB_EVENT_NAME"
-          echo "OIDC request URL exists: ${ACTIONS_ID_TOKEN_REQUEST_URL:+yes}"
-          echo "OIDC request token exists: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+yes}"
+          echo "OIDC URL available: ${ACTIONS_ID_TOKEN_REQUEST_URL:+yes}"
+          echo "OIDC token available: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+yes}"
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
