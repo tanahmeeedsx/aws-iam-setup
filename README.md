@@ -86,9 +86,11 @@ AWS IAM • Amazon S3 • Amazon EC2 • GitHub Actions • OIDC • AWS CLI •
 • EC2 → S3 through IAM Role
 • OIDC → Passwordless/long-term-credential-free authentication concept
 
-## Repository
+## Project Post
 
-GitHub: [tanahmeeedsx/aws-iam-setup](https://github.com/tanahmeeedsx/aws-iam-setup)
+Read the project walkthrough on LinkedIn:
+
+🔗 [AWS IAM Role-Based Service Access Project](https://lnkd.in/p/gS7CxibU)
 
 ---
 
